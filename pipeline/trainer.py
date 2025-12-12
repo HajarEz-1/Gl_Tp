@@ -1,7 +1,9 @@
 
 import joblib
 from sklearn.linear_model import LinearRegression
+
 from core.dataset import DatasetLoader
+
 
 class ModelTrainer:
     

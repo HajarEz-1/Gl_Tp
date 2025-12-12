@@ -1,6 +1,6 @@
 
-import pandas as pd
 from sklearn.preprocessing import LabelEncoder
+
 
 def encode_smoker(df):
     le = LabelEncoder()

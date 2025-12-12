@@ -7,10 +7,11 @@ sys.path.append(str(project_root))
 
 os.chdir(project_root)
 
-from pipeline.trainer import ModelTrainer
-from pipeline.evaluater import ModelEvaluator
-from core.model import ClinicalPredictor
 from core.dataset import DatasetLoader
+from core.model import ClinicalPredictor
+from pipeline.evaluater import ModelEvaluator
+from pipeline.trainer import ModelTrainer
+
 
 def main():
     

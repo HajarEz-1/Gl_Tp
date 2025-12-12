@@ -1,8 +1,10 @@
 import joblib
 import numpy as np
 from sklearn.metrics import mean_squared_error, r2_score
-from core.model import ClinicalPredictor
+
 from core.dataset import DatasetLoader
+from core.model import ClinicalPredictor
+
 
 class ModelEvaluator:
     
